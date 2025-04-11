@@ -11,14 +11,14 @@ const Footer = () => {
 					>
 						Maaz
 					</a>
-					. The source code is available on{" "}
+					. The source code is available on my {" "}
 					<a
 						href='https://github.com/0maaz-01/Netflix-Clone'
 						target='_blank'
 						rel='noreferrer'
 						className='font-medium underline underline-offset-4'
 					>
-						my GitHub profile.
+						GitHub profile.
 					</a>
 					.
 				</p>
