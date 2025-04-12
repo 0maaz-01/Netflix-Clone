@@ -4,7 +4,7 @@
 
 # Netflix Clone (MERN Stack Full-Stack App)
 
-This is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application that replicates the core functionalities of Netflix. It features **user authentication**, **movie browsing**, **video streaming UI**, **search feature** and a **watch history system**.
+This is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application that replicates the core functionalities of Netflix. It features **user authentication**, **movie browsing**, **video streaming UI**, **search feature** and a **search history system**.
 
 This project demonstrates a seamless integration of frontend and backend technologies to build a robust streaming service-like experience, with full responsiveness and secure user flows.
 
@@ -32,37 +32,44 @@ This project demonstrates a seamless integration of frontend and backend technol
 
 ---
 
-## Technologies Used 🛠️
-
-![My Skills](https://skillicons.dev/icons?i=mongodb,express,react,nodejs,js,html,css,tailwind)
-
-- **MongoDB**: NoSQL database for storing user and video data.
-- **Express.js**: Backend framework for handling API routes and middleware.
-- **React.js**: Frontend library for building dynamic UIs.
-- **Node.js**: JavaScript runtime for building the backend server.
-- **JWT (jsonwebtoken)**: Used for user authentication.
-- **Axios**: For making HTTP requests from the frontend.
-- **TailwindCSS**: For fast, utility-based styling.
-- **React Router**: For client-side routing and navigation.
-- **Context API / Redux**: For state management.
-
----
-
 ## Pages
 
-### 1. **Landing / Home Page** 🏠  
-   - Browse categories, featured titles, and trending picks.
-   - Responsive grid layout with movie posters and hover previews.
+### 1. **Home Page** 🏠  
+   - Top rated and popular shows and movies.
+   - Responsive grid layout with movie posters.
 
 ### 2. **Auth Pages** 🔑  
    - Login and Signup pages with validation.
    - JWT is stored in localStorage and used for protected routes.
 
 ### 3. **Movie Details Page** 📽  
-   - Click a title to view detailed info, trailer, and a description.
+   - Click a title to view detailed info, trailer, a description and similar movies.
 
-### 4. **User Dashboard / Watchlist** 📋  
-   - View saved shows and easily remove titles from the watchlist.
+### 4. **Search History Page** 📋  
+   - View recently seached shows in this and you can easily remove the search history according to you.
+
+### 5. **Search Result Page** :
+- This page will display the result for what the user has asked for.
+
+---
+
+
+## Technologies Used 🛠️
+
+![My Skills](https://skillicons.dev/icons?i=mongodb,express,react,nodejs,js,html,css,tailwind)
+
+- **MongoDB**: NoSQL database for storing user email and password.
+- **Express.js**: Backend framework for handling API routes and middleware.
+- **React.js**: Frontend library for building dynamic UIs.
+- **Node.js**: JavaScript runtime for building the backend server.
+- **JWT (jsonwebtoken)**: Used for user authentication.
+- **Axios**: For making HTTP requests from the frontend.
+- **TailwindCSS**: For making the website responsive.
+- **React Router**: For client-side routing and navigation.
+- **Context API / Redux**: For state management.
+- **Lucide React** : For icons used in the clone.
+- **React Hot Toast** : For popups in case of email, password or other errors.
+- **Bcrypt JS** : For hashing the password.
 
 ---
 
@@ -79,57 +86,35 @@ This project demonstrates a seamless integration of frontend and backend technol
 ---
 
 
-## Installation & Setup 🧰
+## Installation 🛠️ :
+You need to install some dependencies using the command terminal so that the code runs smoothly on your device.
 
-### 1. Clone the repository
+1) React :
+`npm install `
 
-```bash
-git clone https://github.com/your-username/netflix-clone.git
-cd netflix-clone
-```
+2) Tailwind CSS :
+   `npm install -D tailwindcss@3 postcss autoprefixer`
+     
+    `npx tailwindcss init  -p`
 
-### 2. Install dependencies
+3) Mongoose : For operating mongo db
+   `npm install mongoose`
 
-#### For the **frontend**:
+4) Express :
+   `npm install express`
 
-```bash
-cd client
-npm install
-```
-
-#### For the **backend**:
-
-```bash
-cd server
-npm install
-```
-
-### 3. Environment Variables
-
-Create `.env` files in both `client` and `server` folders as needed.
-
-#### Example `.env` for backend:
-
-```env
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-PORT=5000
-```
-
-### 4. Run the app
-
-Start both servers:
-
-```bash
-# Start backend
-cd server
-npm start
-
-# Start frontend (in another terminal)
-cd client
-npm start
-```
-
+5) JWT :
+   `npm install jsonwebtoken`
+6) Axios :
+   `npm install jsonwebtoken`
+7) React Router :
+`npm install react-router-dom`
+8) Lucide React
+ `npm install lucide-react`
+9) React Hot Toast :
+`npm install react-hot-toast`
+10) Bcrypt JS : 
+`npm install bcryptjs`
 ---
 
 ## Contributing 🤝
@@ -137,19 +122,35 @@ npm start
 All contributions are welcome! If you'd like to add features or fix bugs:
 
 1. Fork the repo
-2. Create a new branch (`git checkout -b feature-name`)
+2. Create a new branch 
 3. Make your changes
 4. Commit your changes
-5. Push to your fork (`git push origin feature-name`)
+5. Push to your fork 
 6. Submit a pull request
 
 ---
 
 ## License 📄
 
-MIT License  
-© 2025 [Your Name]
 
----
+MIT License
 
-Want me to generate this as a real markdown file you can drop into your repo? Or maybe help create badges and deploy instructions with Vercel/Render for full-stack hosting?
+Copyright (c) 2025 Mohammed Maaz Rayeen
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
