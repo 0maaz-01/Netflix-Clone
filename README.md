@@ -77,11 +77,20 @@ This project demonstrates a seamless integration of frontend and backend technol
 
 ### 💻 Desktop View
 
-[<img src="https://your-demo-screenshot-url.com/desktop.png" width="320">](https://your-demo-link.com)
+<img src="https://github.com/0maaz-01/Netflix-Clone/blob/main/Netflix%20Pages/Desktop.png" alt="Thumbnail" width="320" height="180"><img src="https://github.com/0maaz-01/Netflix-Clone/blob/main/Netflix%20Pages/HomePage.png" alt="Thumbnail" width="320" height="180"><img src="https://github.com/0maaz-01/Netflix-Clone/blob/main/Netflix%20Pages/HomePage2.png" alt="Thumbnail" width="320" height="180">
 
+ <br></br>
+
+<img src="https://github.com/0maaz-01/Netflix-Clone/blob/main/Netflix%20Pages/MovieDetailPage.png" alt="Thumbnail" width="320" height="180"><img src="https://github.com/0maaz-01/Netflix-Clone/blob/main/Netflix%20Pages/SearchHistory.page.png" alt="Thumbnail" width="320" height="180"><img src="https://github.com/0maaz-01/Netflix-Clone/blob/main/Netflix%20Pages/SearchPage.png" alt="Thumbnail" width="320" height="180">
+
+ <br></br>
+  
 ### 📱 Mobile View
 
-[<img src="https://your-demo-screenshot-url.com/mobile.png" width="220">](https://your-demo-link.com)
+[<img src="https://github.com/0maaz-01/Netflix-Clone/blob/main/Netflix%20Pages/Mobile2.jpg" alt="Thumbnail" width="220" height="500">
+<img src="https://github.com/0maaz-01/Netflix-Clone/blob/main/Netflix%20Pages/Mobile3.jpg" alt="Thumbnail" width="220" height="500">
+<img src="https://github.com/0maaz-01/Netflix-Clone/blob/main/Netflix%20Pages/Mobile4.jpg" alt="Thumbnail" width="220" height="500">
+<img src="https://github.com/0maaz-01/Netflix-Clone/blob/main/Netflix%20Pages/Mobile5.jpg" alt="Thumbnail" width="220" height="500">]
 
 ---
 
