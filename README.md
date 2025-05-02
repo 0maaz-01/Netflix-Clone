@@ -4,7 +4,7 @@
 
 # Netflix Clone (MERN Stack Full-Stack App)
 
-This is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application that replicates the core functionalities of Netflix. It features **user authentication**, **movie browsing**, **video streaming UI**, **search feature** and a **search history system**.
+This is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application that replicates the core functionalities of Netflix. It features **user authentication**, **movie browsing**, **video streaming UI**, **search feature** and a **search history system**. 
 
 This project demonstrates a seamless integration of frontend and backend technologies to build a robust streaming service-like experience, with full responsiveness and secure user flows.
 
