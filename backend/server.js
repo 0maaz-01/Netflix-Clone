@@ -1,7 +1,7 @@
 import express from "express";
 import cookieParser from "cookie-parser";
 import path from "path";
-
+import cors from "cors";
 import authRoutes from "./routes/auth.route.js";
 import movieRoutes from "./routes/movie.route.js";
 import tvRoutes from "./routes/tv.route.js";
@@ -12,6 +12,11 @@ import { connectDB } from "./config/db.js";
 import { protectRoute } from "./middleware/protectRoute.js";
 
 const app = express();
+
+app.use(cors({
+  origin: 'https://netflix-clone-one-fawn-22.vercel.app/', // or '*' for public access
+  credentials: true
+}));
 
 const PORT = ENV_VARS.PORT;
 const __dirname = path.resolve();
