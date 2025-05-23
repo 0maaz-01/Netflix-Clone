@@ -14,7 +14,7 @@ import { protectRoute } from "./middleware/protectRoute.js";
 const app = express();
 
 app.use(cors({
-  origin: 'https://netflix-clone-one-fawn-22.vercel.app/', // or '*' for public access
+  origin: 'https://netflix-clone-one-fawn-22.vercel.app', // or '*' for public access
   credentials: true
 }));
 
