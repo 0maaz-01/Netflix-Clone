@@ -1,7 +1,3 @@
-# Live Link - [Netflix Clone 🎥🍿](https://netflix-clone-production-636d.up.railway.app/)
-
----
-
 # Netflix Clone (MERN Stack Full-Stack App)
 
 This is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application that replicates the core functionalities of Netflix. It features **user authentication**, **movie browsing**, **video streaming UI**, **search feature** and a **search history system**. 
@@ -52,27 +48,6 @@ This project demonstrates a seamless integration of frontend and backend technol
 - This page will display the result for what the user has asked for.
 
 ---
-
-
-## Technologies Used 🛠️
-
-![My Skills](https://skillicons.dev/icons?i=mongodb,express,react,nodejs,js,html,css,tailwind)
-
-- **MongoDB**: NoSQL database for storing user email and password.
-- **Express.js**: Backend framework for handling API routes and middleware.
-- **React.js**: Frontend library for building dynamic UIs.
-- **Node.js**: JavaScript runtime for building the backend server.
-- **JWT (jsonwebtoken)**: Used for user authentication.
-- **Axios**: For making HTTP requests from the frontend.
-- **TailwindCSS**: For making the website responsive.
-- **React Router**: For client-side routing and navigation.
-- **Context API / Redux**: For state management.
-- **Lucide React** : For icons used in the clone.
-- **React Hot Toast** : For popups in case of email, password or other errors.
-- **Bcrypt JS** : For hashing the password.
-
----
-
 ## Screenshots & Demo 📸
 
 ### 💻 Desktop View
@@ -93,6 +68,25 @@ This project demonstrates a seamless integration of frontend and backend technol
 <img src="https://github.com/0maaz-01/Netflix-Clone/blob/main/Netflix%20Pages/Mobile5.jpg" alt="Thumbnail" width="220" height="500">]
 
 ---
+## Technologies Used 🛠️
+
+![My Skills](https://skillicons.dev/icons?i=mongodb,express,react,nodejs,js,html,css,tailwind)
+
+- **MongoDB**: NoSQL database for storing user email and password.
+- **Express.js**: Backend framework for handling API routes and middleware.
+- **React.js**: Frontend library for building dynamic UIs.
+- **Node.js**: JavaScript runtime for building the backend server.
+- **JWT (jsonwebtoken)**: Used for user authentication.
+- **Axios**: For making HTTP requests from the frontend.
+- **TailwindCSS**: For making the website responsive.
+- **React Router**: For client-side routing and navigation.
+- **Context API / Redux**: For state management.
+- **Lucide React** : For icons used in the clone.
+- **React Hot Toast** : For popups in case of email, password or other errors.
+- **Bcrypt JS** : For hashing the password.
+
+---
+
 
 
 ## Installation 🛠️ :
